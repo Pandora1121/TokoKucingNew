@@ -64,7 +64,7 @@ nav ul li a.active {
 }
 .header {
   position: relative;
-  background-image: url("/img/kucingsiapaanjr.jpeg"); /* Gambar sekolah */
+  background:url("/img/kucingsiapaanjr.jpeg"); /* Gambar sekolah */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
