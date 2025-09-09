@@ -1,0 +1,377 @@
+<<<<<<< HEAD
+*, html {
+padding: 0;
+margin : 0;
+box-sizing: 0;
+}
+
+:root{
+    --bg-color : #3ba7ad;
+    --text-color:rgb(22, 19, 19);
+}
+body.dark{
+    --bg-color:white;
+    --text-color:#ffffff
+}
+h1{
+    color:var(--text-color)
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+nav {
+    background: #2592ff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav div img {
+    width: 40px;
+}
+
+nav ul li a {
+    color: #1f1111;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+nav ul li a:hover,
+nav ul li a.active {
+    background: #1464b4;
+}
+.header {
+  position: relative;
+  background-image: url("/img/kucingsiapaanjr.jpeg"); /* Gambar sekolah */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 10px 20px;
+  color: black;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+}
+.jenis {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0);
+    transition: 0.3s;
+    width: 20%;
+   border-radius: 10PX;
+   background-color: #2592ff;
+    margin: 10px 0 10px 10px;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    aspect-ratio: 10 / 11;
+}
+.card-selection {
+    padding: 1px;
+    text-align: center;
+    color: #fff;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+#footer {
+    background-color: #2592ff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+#toggle {
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+search-bar {
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+body {
+    animation: forwards;
+    animation-duration: 10ms;
+    animation-timing-function: ease-in;
+}
+
+.about h1, .about h4 {
+    text-align: center;
+    padding: auto;
+    margin-top: 1/10px;
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1)
+}
+.about p {
+    text-align: center;
+    padding: 0 20px;
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+}
+
+.about img {
+    display: abolute;
+    margin: 10px auto;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    border-radius: 11/10px;
+ 
+}
+.about h4 .about p {
+    text-align: right;
+    padding: auto;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+=======
+*, html {
+padding: 0;
+margin : 0;
+box-sizing: 0;
+}
+
+:root{
+    --bg-color : #3ba7ad;
+    --text-color:rgb(22, 19, 19);
+}
+body.dark{
+    --bg-color:white;
+    --text-color:#ffffff
+}
+h1{
+    color:var(--text-color)
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+nav {
+    background: #2592ff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav div img {
+    width: 40px;
+}
+
+nav ul li a {
+    color: #1f1111;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+nav ul li a:hover,
+nav ul li a.active {
+    background: #1464b4;
+}
+.header {
+  position: relative;
+  background-image: url("/img/kucingsiapaanjr.jpeg"); /* Gambar sekolah */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 10px 20px;
+  color: black;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+}
+.jenis {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0);
+    transition: 0.3s;
+    width: 20%;
+   border-radius: 10PX;
+   background-color: #2592ff;
+    margin: 10px 0 10px 10px;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    aspect-ratio: 10 / 11;
+}
+.card-selection {
+    padding: 1px;
+    text-align: center;
+    color: #fff;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+#footer {
+    background-color: #2592ff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+#toggle {
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+search-bar {
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+body {
+    animation: forwards;
+    animation-duration: 10ms;
+    animation-timing-function: ease-in;
+}
+
+.about h1, .about h4 {
+    text-align: center;
+    padding: auto;
+    margin-top: 1/10px;
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1)
+}
+.about p {
+    text-align: center;
+    padding: 0 20px;
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+}
+
+.about img {
+    display: abolute;
+    margin: 10px auto;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    border-radius: 11/10px;
+ 
+}
+.about h4 .about p {
+    text-align: right;
+    padding: auto;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+>>>>>>> e75a38079c3b53d1ae2365d51fef0cf17b18be4d
